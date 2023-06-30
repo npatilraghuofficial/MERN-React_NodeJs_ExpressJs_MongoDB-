@@ -6,8 +6,6 @@ import NavLink from "react-router-dom/NavLink";
 
 // Takes the props: name, street, city, state as STRINGS.  Takes the prop zip as a NUMBER.
 
-{/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaqxl4Rve6wjojceW0oC6mXRoDjObVNE0&&libraries=places"> */}
-    
 
 
 const google = window.google;

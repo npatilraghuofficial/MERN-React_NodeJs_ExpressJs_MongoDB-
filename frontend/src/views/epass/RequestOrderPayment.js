@@ -5,12 +5,12 @@ function RequestOrderPayment() {
   const amt = document.getElementById("price").value;
 
   let amntTxt = amt * 100;
-  const payment = axios.post('http://localhost:2024/api/razorpay/create-order', { amount: amntTxt, receipt: "gurkaran_order_54654" })
+  const payment = axios.post('http://localhost:2024/api/razorpay/create-order', { amount: amntTxt, receipt: "ABBC" })
     .then(response => {
       const orderID = response.data.id
       var options = {
-        "key_id": "rzp_test_hcBEyLK2rKpWkS",
-        "key_secret": "AilD2hmREnc2HEDIuIBYzu6O",
+        "key_id": "88",
+        "key_secret": "888",
         "amount": amntTxt,
         "currency": "INR",
 
@@ -29,7 +29,7 @@ function RequestOrderPayment() {
         "prefill": {
           "name": "Raghavendra N Patil",
           "email": "npatilraghu@example.com",
-          "contact": "8722583680",
+          "contact": "987654321",
         },
         "notes": {
           "address": "note value",

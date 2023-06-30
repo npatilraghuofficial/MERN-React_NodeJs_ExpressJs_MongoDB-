@@ -168,12 +168,12 @@ function paynow() {
     const fare = document.getElementById("fare").value;
 
     let amntTxt = fare * 100;
-    const payment = axios.post('http://localhost:2024/api/razorpay/create-order', { amount: amntTxt, receipt: "gurkaran_order_54654" })
+    const payment = axios.post('http://localhost:2024/api/razorpay/create-order', { amount: amntTxt, receipt: "" })
       .then(response => {
         setOrderID(response.data.id)
         var options = {
-          "key_id": "rzp_test_hcBEyLK2rKpWkS",
-          "key_secret": "AilD2hmREnc2HEDIuIBYzu6O",
+          "key_id": "API",
+          "key_secret": "API",
           "amount": amntTxt,
           "currency": "INR",
 
@@ -193,7 +193,7 @@ function paynow() {
           "prefill": {
             "name": "Raghavendra N Patil",
             "email": "npatilraghu@example.com",
-            "contact": "8722583680",
+            "contact": "987654321",
           },
           "notes": {
             "address": "note value",

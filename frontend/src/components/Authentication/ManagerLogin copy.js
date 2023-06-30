@@ -402,7 +402,7 @@ class ManagerLogin extends React.Component {
             },
             "Manager_details": {
 
-              "PhoneNumber": 8722583680,
+              "PhoneNumber": 987654321,
               "FirstName": "{ type: String }",
               "LastName": "{ type: String }",
               "Gender": "{ type: String }",
