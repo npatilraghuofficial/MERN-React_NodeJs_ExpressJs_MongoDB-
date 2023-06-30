@@ -1,0 +1,62 @@
+   <table class="table table-bordered table-responsive">
+  <thead>
+    <tr>
+    <th scope="col">Passenger No's</th>
+      <th scope="col">Type</th>
+      <th scope="col">Source</th>
+      <th scope="col">Destination</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+
+      <td>Adult</td>
+      <td></td>
+      <td>@mdo</td>
+
+      
+    </tr>
+    
+
+    <tr>
+      <th scope="row">2</th>
+      <td>Juniors</td>
+      <td>KBS</td>
+      <td>@mdo</td>
+    </tr>
+
+
+    <tr>
+      <th scope="row">2</th>
+      <td>Senior</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+
+    <tr>
+      <th scope="row">1</th>
+      <td>DisABLED</td>
+      <td></td>
+      <td>@fat</td>
+    </tr>
+
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+  <NavLink to="/admin/eticket/Displayticket"> <Button
+                              defaultValue="Raghu"
+                              placeholder="Password"
+                              type="button"
+                              className="btn-fill pull-right md-6"
+                            >Login Now
+                             
+                            </Button>
+                            </NavLink>
